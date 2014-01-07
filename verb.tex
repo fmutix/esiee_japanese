@@ -1,0 +1,127 @@
+\documentclass[11pt]{report}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{titlesec, blindtext}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{CJKutf8}
+\newenvironment{Japanese}{%  
+\CJKfamily{min}%  
+\CJKtilde  
+\CJKnospace}{} 
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{blue}{rgb}{0,0,0.7}
+\renewcommand{\arraystretch}{1.2}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp{|}\hsp}{0pt}{\Huge\bfseries}
+\hypersetup{
+	colorlinks=true,       	% false: boxed links; true: colored links
+	linkcolor=black,          	% color of internal links
+	urlcolor=blue           	% color of external links
+}
+
+\title{Cours de japonais}
+\author{
+	Frédéric Nguyen \\ Club*Nix
+}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Ichidan}
+
+\begin{CJK}{UTF8}{}  
+\begin{Japanese}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+				\hline
+				\textbf{Français} & \textbf{Rõmaji} & \textbf{Hiragana -masu} \\
+				\hline
+				se coucher & nemasu & ねます \\	
+				\hline 
+				prendre une douche & abimasu & あびます \\
+				\hline
+				prendre une photo & torimasu & とります \\
+				\hline
+				se lever & okimasu & おきます \\
+				\hline
+				manger & tabemasu & たべます \\
+				\hline
+				rencontrer & aimasu & あいます \\
+				\hline
+			\end{tabular}
+	\end{center}
+\end{Japanese}  
+\end{CJK}
+
+\chapter{Godan}
+
+\begin{CJK}{UTF8}{}  
+\begin{Japanese}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+				\hline
+				\textbf{Français} & \textbf{Rõmaji} & \textbf{Hiragana -masu} \\
+				\hline
+				acheter & kaimasu & かいます \\
+				\hline
+				aller & ikimasu & いきます \\
+				\hline
+				boire & nomimasu & のみます \\
+				\hline
+				se brosser les dents & migakimasu & みがきます \\
+				\hline
+				écouter & kikimasu & ききます \\
+				\hline
+				écrire & kakimasu & かきます \\
+				\hline
+				être/se situer (objet) & arimasu & あります \\
+				\hline
+				se déshabiller & nugimasu & ぬぎます \\
+				\hline
+				lire & yomimasu & よみます \\
+				\hline
+				parler & hanashimasu & はなします \\
+				\hline
+				regarder & mimasu & みます \\
+				\hline
+				rentrer & kaerimasu & かえります \\
+				\hline
+				téléphoner & kakemasu & かけます \\
+				\hline
+				terminer & owarimasu & おわります \\
+				\hline
+			\end{tabular}
+	\end{center}
+\end{Japanese}  
+\end{CJK}
+
+\chapter{Irrégulier}
+
+\begin{CJK}{UTF8}{}  
+\begin{Japanese}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+				\hline
+				\textbf{Français} & \textbf{Rõmaji} & \textbf{Hiragana -masu} \\
+				\hline
+				faire & shimasu & します \\
+				\hline
+			\end{tabular}
+	\end{center}
+\end{Japanese}  
+\end{CJK}
+
+\end{document}

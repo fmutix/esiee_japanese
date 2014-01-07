@@ -1,0 +1,191 @@
+\documentclass[11pt]{report}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{titlesec, blindtext}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{CJKutf8}
+\newenvironment{Japanese}{%  
+\CJKfamily{min}%  
+\CJKtilde  
+\CJKnospace}{} 
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{blue}{rgb}{0,0,0.7}
+\renewcommand{\arraystretch}{1.2}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp{|}\hsp}{0pt}{\Huge\bfseries}
+\hypersetup{
+	colorlinks=true,       	% false: boxed links; true: colored links
+	linkcolor=black,          	% color of internal links
+	urlcolor=blue           	% color of external links
+}
+
+\title{Cours de japonais}
+\author{
+	Frédéric Nguyen \\ Club*Nix
+}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Adjectifs forme en i}
+
+\section{Formes}
+
+\begin{CJK}{UTF8}{}  
+\begin{Japanese}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Forme} & \textbf{Roumaji} & \textbf{Hiragana} \\
+			\hline
+			Affirmative & atsui & あつい \\
+			\hline
+			Négative & atsukunai & あつくない \\
+			\hline
+			Affirmative passée & atsukatta & あつかった \\
+			\hline
+			Négative passée & tsukunakatta & あtしゅくなかった \\
+			\hline 
+		\end{tabular}
+	\end{center}
+	Il y a un irrégulier qui est l'adjectif bon [いい]. \\
+	- いい \\
+	- よくない \\
+	- よかった \\
+	- よくなかった \\ \\
+	
+	Autre forme d'adjectif dans les phrases pour dire "ça a l'air ..." \\
+	Les hiraganas sont faciles : ひらがなは　やさしい　です。 \\
+	Les hiraganas ont l'air facile : ひらがなは　やさしそう　です。 \\
+\end{Japanese}  
+\end{CJK}  
+
+\chapter{Verbes}
+
+\section{Forme en te}
+
+\begin{CJK}{UTF8}{}  
+\begin{Japanese}
+	\begin{description}
+		\item[Ichidan] \hfill \\
+			たべます -> たべ\textcolor{red}{て}
+		\item[Godan] \hfill \\
+			の\textcolor{red}{み}ます -> の\textcolor{red}{んで} \\
+			と\textcolor{red}{り}ます -> と\textcolor{red}{って} \\
+			か\textcolor{red}{い}ます -> か\textcolor{red}{って} \\
+			ま\textcolor{red}{ち}ます -> ま\textcolor{red}{って} \\
+			か\textcolor{red}{き}ます -> か\textcolor{red}{いて} \\
+			ぬ\textcolor{red}{ぎ}ます -> ぬ\textcolor{red}{いで}
+		\item[Irrégulier] \hfill \\
+			します -> して \\
+			いきます -> いって
+	\end{description}
+	\hfill \\
+	Utilisation possibles avec la forme en te : \\ \\
+	1. のんで　ください。 \\
+	Buvez-s'il vous plait. \\ \\
+	2. わtしは　サンドイッチを　たべて　います。 \\
+	Je suis en train de manger un sandwich. \\ \\
+	3. かいても　いいですか。 \\
+	Puis-je écrire ?
+\end{Japanese}  
+\end{CJK}
+
+\section{Forme négative}
+
+\begin{CJK}{UTF8}{}  
+\begin{Japanese}
+	\begin{description}
+		\item[Ichidan] \hfill \\
+			たべます -> たべない
+		\item[Godan] \hfill \\
+			の\textcolor{red}{み}ます -> の\textcolor{red}{ま}ない \\
+			と\textcolor{red}{り}ます -> と\textcolor{red}{ら}ない \\
+			か\textcolor{red}{い}ます -> か\textcolor{red}{わ}ない \\
+			ま\textcolor{red}{ち}ます -> ま\textcolor{red}{さ}ない \\
+			はな\textcolor{red}{し}ます -> はな\textcolor{red}{さ}ない \\
+			か\textcolor{red}{き}ます -> か\textcolor{red}{か}ない \\
+			ぬ\textcolor{red}{ぎ}ます -> ぬ\textcolor{red}{が}ない
+		\item[Irrégulier] \hfill \\
+			します -> しない \\
+			きます -> こない
+	\end{description}
+	\hfill \\
+	Exemples : \\ \\
+	1. この　いぬを　たべないで　ください。 \\
+	Ne mange pas cette viande. \\ \\
+	2. まどを　あけないで　ください。\\
+	N'ouvre pas les fenêtres.
+\end{Japanese}  
+\end{CJK}
+
+\section{Forme neutre}
+
+\begin{CJK}{UTF8}{}  
+\begin{Japanese}
+	\begin{description}
+		\item[Ichidan] \hfill \\
+			たべます -> たべる
+		\item[Godan] \hfill \\
+			の\textcolor{red}{み}ます -> の\textcolor{red}{む} \\
+			と\textcolor{red}{り}ます -> と\textcolor{red}{る} \\
+			か\textcolor{red}{い}ます -> か\textcolor{red}{わ} \\
+			ま\textcolor{red}{ち}ます -> ま\textcolor{red}{つ} \\
+			はな\textcolor{red}{し}ます -> はな\textcolor{red}{す} \\
+			か\textcolor{red}{き}ます -> か\textcolor{red}{く} \\
+			ぬ\textcolor{red}{ぎ}ます -> ぬ\textcolor{red}{ぐ}
+		\item[Irrégulier] \hfill \\
+			します -> する \\
+			きます -> くる
+	\end{description}
+\end{Japanese}  
+\end{CJK}
+
+\chapter{Obligation}
+
+\section{Forme d'obligation}
+
+\begin{CJK}{UTF8}{}  
+\begin{Japanese}
+	\underline{\emph{verbe}}なければなりません。-> Il faut... \\
+	
+	Exemples : \\ \\
+	1. まいあさ　ごはんを　\underline{たべ}なければなりません。 (\underline{たべ}ます)\\
+	Il faut manger tous les jours. \\ \\
+	2. くすりを　のみますから　\underline{ね}なければなりません。(\underline{ね}ます) \\
+	Il faut dormir après avoir bu ses médicaments. \\ \\
+	3. この　まんがを　\underline{かい}なければなりません。 (\underline{かい}ます)\\
+	Il faut acheter ce manga.
+\end{Japanese}  
+\end{CJK}
+
+\section{Non obligation}
+
+\begin{CJK}{UTF8}{}  
+\begin{Japanese}
+	\underline{\emph{verbe}}なくてもいいです。-> Ce n'est pas la peine, pas obligé de... \\
+	
+	Exemples : \\ \\
+	1. この　てがみを　\underline{かき}なくてもいいです。 (\underline{かき}ます) \\
+	C'est n'est pas la peine d'écrire cette lettre. \\ \\
+	2. たこさんを　\underline{よび}なくてもいいです。 (\underline{よび}ます) \\
+	Ce n'est pas la peine d'appeler monsieur Poulpe. \\ \\
+	3. あさっては　がっこうへ　いきなくてもいいです。 \\
+	Ce n'est pas la peine d'aller à \, l'école après-demain.
+\end{Japanese}  
+\end{CJK}
+
+\end{document}
