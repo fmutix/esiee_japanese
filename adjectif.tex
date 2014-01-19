@@ -31,6 +31,9 @@
 	urlcolor=blue           	% color of external links
 }
 
+\usepackage{multicol}
+\setlength\columnsep{-13.1em}
+%\setlength\columnseprule{.4pt}
 \title{Japonais - Adjectifs rencontrés}
 \author{
 	Frédéric Nguyen \\ Club*Nix
@@ -45,9 +48,22 @@
 \begin{CJK}{UTF8}{}  
 \begin{Japanese}
 	\begin{center}
-		\begin{tabular}{|c|c|c|}
-		
-		\end{tabular}
+		\begin{multicols}{2}
+			\begin{tabular}{|c|c|c|}
+				\hline
+				\textbf{Français} & \textbf{Rõmaji} & \textbf{Hiragana} \\
+				\hline
+				\textbf{froid} & samui & さむい \\
+				\hline
+			\end{tabular}
+			\begin{tabular}{|c|c|c|}
+				\hline
+				\textbf{Hiragana} & \textbf{Rõmaji} & \textbf{Français} \\
+				\hline
+				あつい & atsui & \textbf{chaud}\\
+				\hline 		
+			\end{tabular}
+		\end{multicols}
 	\end{center}
 \end{Japanese}  
 \end{CJK}
@@ -58,7 +74,7 @@
 \begin{Japanese}
 	\begin{center}
 		\begin{tabular}{|c|c|c|}
-			
+
 		\end{tabular}
 	\end{center}
 \end{Japanese}  
